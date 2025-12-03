@@ -12,8 +12,8 @@ ARCGIS_USERNAME = os.environ.get("ARCGIS_USERNAME")
 ARCGIS_PASSWORD = os.environ.get("ARCGIS_PASSWORD")
 
 # Feature Layer URLs
-TASK_URL = "https://services.arcgis.com/FsUQjymePMCjUecp/arcgis/rest/services/ICA_bbw/FeatureServer/6"
-WS_URL   = "https://services.arcgis.com/FsUQjymePMCjUecp/arcgis/rest/services/ICA_bbw/FeatureServer/5"
+TASK_URL = "https://services.arcgis.com/FsUQjymePMCjUecp/arcgis/rest/services/ICA_PM_6/FeatureServer/3"
+WS_URL   = "https://services.arcgis.com/FsUQjymePMCjUecp/arcgis/rest/services/ICA_PM_6/FeatureServer/4"
 
 class ScheduleEngine:
     def __init__(self, nodes_df, task_fl, ws_fl):
