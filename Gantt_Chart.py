@@ -11,10 +11,10 @@ ARCGIS_USERNAME = os.environ.get("ARCGIS_USERNAME")
 ARCGIS_PASSWORD = os.environ.get("ARCGIS_PASSWORD")
 ARCGIS_URL = "https://www.arcgis.com"
 
-PROJECT_URL = "https://services.arcgis.com/FsUQjymePMCjUecp/arcgis/rest/services/ICA_bbw/FeatureServer/0"
-OBJECT_URL  = "https://services.arcgis.com/FsUQjymePMCjUecp/arcgis/rest/services/ICA_bbw/FeatureServer/9"
-TASK_URL    = "https://services.arcgis.com/FsUQjymePMCjUecp/arcgis/rest/services/ICA_bbw/FeatureServer/6"
-WS_URL      = "https://services.arcgis.com/FsUQjymePMCjUecp/arcgis/rest/services/ICA_bbw/FeatureServer/5"
+PROJECT_URL = "https://services.arcgis.com/FsUQjymePMCjUecp/arcgis/rest/services/ICA_PM_6/FeatureServer/1"
+OBJECT_URL  = "https://services.arcgis.com/FsUQjymePMCjUecp/arcgis/rest/services/ICA_PM_6/FeatureServer/2"
+TASK_URL    = "https://services.arcgis.com/FsUQjymePMCjUecp/arcgis/rest/services/ICA_PM_6/FeatureServer/3"
+WS_URL      = "https://services.arcgis.com/FsUQjymePMCjUecp/arcgis/rest/services/ICA_PM_6/FeatureServer/4"
 
 def fl_to_df(url):
     try:
