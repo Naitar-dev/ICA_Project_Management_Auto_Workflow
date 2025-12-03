@@ -71,8 +71,8 @@
     // ✅ 新版尺度配置：主刻度为年，子刻度为月
     gantt.config.scales = [
       {
-      unit: "year",
-      step: 0.5,
+      unit: "month",
+      step: 6,
       format: function(date){
         const year = date.getFullYear();
         const month = date.getMonth();
