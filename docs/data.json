@@ -1,225 +1,76 @@
 {
-  "generated_at": "2025-12-03T19:53:16.814695Z",
+  "generated_at": "2025-12-03T20:37:39.517703Z",
   "data": [
     {
-      "id": "PEA_IND_Env_Monitor",
-      "text": "PEA_IND_Env_Monitor",
+      "id": "PEA_IND_Water_Monitor",
+      "text": "PEA_IND_Water_Monitor",
       "start_date": "2025-10-13",
-      "duration": 79,
+      "duration": 39,
       "open": true,
       "color": "#4CAF50",
       "progress": 0.5
     },
     {
-      "id": "PEA_IND_Env_Monitor_A",
-      "text": "Define Priorities",
+      "id": "PEA_IND_Water_Monitor_A",
+      "text": "Assess Existing Monitoring Methods",
       "start_date": "2025-10-13",
-      "duration": 35,
-      "parent": "PEA_IND_Env_Monitor",
+      "duration": 39,
+      "parent": "PEA_IND_Water_Monitor",
       "color": "#2196F3",
       "progress": 0.0
     },
     {
-      "id": "PEA_IND_Env_Monitor_A_T_1",
-      "text": "Monitoring Team Meeting",
-      "start_date": "2025-10-14",
-      "duration": 13,
-      "parent": "PEA_IND_Env_Monitor_A",
+      "id": "PEA_IND_Water_Monitor_A_T_1",
+      "text": "Assess Existing Data",
+      "start_date": "2025-01-01",
+      "duration": 1,
+      "parent": "PEA_IND_Water_Monitor_A",
       "color": "#FC0BB3"
     },
     {
-      "id": "PEA_IND_Env_Monitor_A_T_2",
-      "text": " Review Existing Data",
-      "start_date": "2025-11-01",
-      "duration": 16,
-      "parent": "PEA_IND_Env_Monitor_A",
-      "color": "#FC0BB3"
-    },
-    {
-      "id": "PEA_IND_Env_Monitor_B",
-      "text": "Monitoring Methods",
-      "start_date": "2025-11-20",
-      "duration": 41,
-      "parent": "PEA_IND_Env_Monitor",
+      "id": "PEA_IND_Water_Monitor_B",
+      "text": "Water Sampling",
+      "start_date": "2025-01-01",
+      "duration": 1,
+      "parent": "PEA_IND_Water_Monitor",
       "color": "#2196F3",
       "progress": 0.0
     },
     {
-      "id": "PEA_IND_Env_Monitor_B_T_1",
-      "text": "Build Surveys",
-      "start_date": "2025-11-20",
-      "duration": 20,
-      "parent": "PEA_IND_Env_Monitor_B",
-      "color": "#FC0BB3"
-    },
-    {
-      "id": "PEA_SKILL_Foundations",
-      "text": "PEA_SKILL_Foundations",
-      "start_date": "2025-08-04",
-      "duration": 66,
+      "id": "ERM_DEM_Census",
+      "text": "ERM_DEM_Census",
+      "start_date": "2025-01-01",
+      "duration": 1,
       "open": true,
       "color": "#4CAF50",
       "progress": 0.5
     },
     {
-      "id": "PEA_SKILL_Foundations_A",
-      "text": "Design Foundational Workshops",
-      "start_date": "2025-08-04",
-      "duration": 31,
-      "parent": "PEA_SKILL_Foundations",
-      "color": "#2196F3",
-      "progress": 0.0
-    },
-    {
-      "id": "PEA_SKILL_Foundations_A_W_1",
-      "text": "Traditional knowledge",
-      "start_date": "2025-08-04",
-      "duration": 11,
-      "parent": "PEA_SKILL_Foundations_A",
-      "color": "#FF9800"
-    },
-    {
-      "id": "PEA_SKILL_Foundations_A_W_2",
-      "text": "Personal Training",
-      "start_date": "2025-08-18",
-      "duration": 13,
-      "parent": "PEA_SKILL_Foundations_A",
-      "color": "#FF9800"
-    },
-    {
-      "id": "PEA_SKILL_Foundations_B",
-      "text": "Foundation GIS Workshops",
-      "start_date": "2025-09-08",
-      "duration": 31,
-      "parent": "PEA_SKILL_Foundations",
-      "color": "#2196F3",
-      "progress": 0.0
-    },
-    {
-      "id": "PEA_SKILL_Foundations_B_W_1",
-      "text": "Introduction to GIS & ArcGIS Pro Basics",
-      "start_date": "2025-09-08",
-      "duration": 16,
-      "parent": "PEA_SKILL_Foundations_B",
-      "color": "#FF9800"
-    },
-    {
-      "id": "PEA_SKILL_Foundations_B_W_2",
-      "text": "Map Projection & Coordinate Systems",
-      "start_date": "2025-09-27",
-      "duration": 12,
-      "parent": "PEA_SKILL_Foundations_B",
-      "color": "#FF9800"
-    },
-    {
-      "id": " PEA_IND_Utl_Solar",
-      "text": " PEA_IND_Utl_Solar",
-      "start_date": "2025-11-12",
-      "duration": 64,
+      "id": "PEA_SKILL_FSC",
+      "text": "PEA_SKILL_FSC",
+      "start_date": "2025-01-01",
+      "duration": 1,
       "open": true,
       "color": "#4CAF50",
       "progress": 0.5
     },
     {
-      "id": "PEA_IND_Utl_Solar_A",
-      "text": "Define Scope and Priorities",
-      "start_date": "2025-11-15",
-      "duration": 61,
-      "parent": " PEA_IND_Utl_Solar",
+      "id": "PEA_SKILL_FSC_A",
+      "text": "Workshop Delivery",
+      "start_date": "2025-01-01",
+      "duration": 1,
+      "parent": "PEA_SKILL_FSC",
       "color": "#2196F3",
       "progress": 0.0
     },
     {
-      "id": "PEA_IND_Utl_Solar_A_T_1",
-      "text": "Mock test",
-      "start_date": "2025-11-15",
-      "duration": 9,
-      "parent": "PEA_IND_Utl_Solar_A",
-      "color": "#FC0BB3"
-    },
-    {
-      "id": "PEA_IND_Utl_Solar_A_T_2",
-      "text": "Surveys test",
-      "start_date": "2025-12-02",
-      "duration": 24,
-      "parent": "PEA_IND_Utl_Solar_A",
-      "color": "#FC0BB3"
-    },
-    {
-      "id": "PEA_IND_Utl_Solar_A_T_3",
-      "text": "Delivery",
-      "start_date": "2026-01-01",
-      "duration": 14,
-      "parent": "PEA_IND_Utl_Solar_A",
-      "color": "#FC0BB3"
+      "id": "PEA_SKILL_FSC_A_W_1",
+      "text": "Module 1",
+      "start_date": "2025-08-26",
+      "duration": 1,
+      "parent": "PEA_SKILL_FSC_A",
+      "color": "#FF9800"
     }
   ],
-  "links": [
-    {
-      "id": "L1",
-      "source": "PEA_SKILL_Foundations_B_W_2",
-      "target": "PEA_IND_Env_Monitor_A_T_1",
-      "type": "0"
-    },
-    {
-      "id": "L2",
-      "source": "PEA_IND_Env_Monitor_A_T_1",
-      "target": "PEA_IND_Env_Monitor_A_T_2",
-      "type": "0"
-    },
-    {
-      "id": "L3",
-      "source": "PEA_SKILL_Foundations_B_W_2",
-      "target": "PEA_IND_Env_Monitor_A_T_2",
-      "type": "0"
-    },
-    {
-      "id": "L4",
-      "source": "PEA_IND_Env_Monitor_A_T_2",
-      "target": "PEA_IND_Env_Monitor_B_T_1",
-      "type": "0"
-    },
-    {
-      "id": "L5",
-      "source": "PEA_IND_Env_Monitor_B_T_1",
-      "target": "PEA_IND_Env_Monitor_B_T_2",
-      "type": "0"
-    },
-    {
-      "id": "L6",
-      "source": "PEA_SKILL_Foundations_B_W_2",
-      "target": "PEA_IND_Utl_Solar_A_T_1",
-      "type": "0"
-    },
-    {
-      "id": "L7",
-      "source": "PEA_IND_Utl_Solar_A_T_1",
-      "target": "PEA_IND_Utl_Solar_A_T_2",
-      "type": "0"
-    },
-    {
-      "id": "L8",
-      "source": "PEA_IND_Utl_Solar_A_T_2",
-      "target": "PEA_IND_Utl_Solar_A_T_3",
-      "type": "0"
-    },
-    {
-      "id": "L9",
-      "source": "PEA_SKILL_Foundations_A_W_2",
-      "target": "PEA_SKILL_Foundations_B_W_1",
-      "type": "0"
-    },
-    {
-      "id": "L10",
-      "source": "PEA_SKILL_Foundations_B_W_1",
-      "target": "PEA_SKILL_Foundations_B_W_2",
-      "type": "0"
-    },
-    {
-      "id": "L11",
-      "source": "PEA_SKILL_Foundations_A_W_1",
-      "target": "PEA_SKILL_Foundations_A_W_2",
-      "type": "0"
-    }
-  ]
+  "links": []
 }
