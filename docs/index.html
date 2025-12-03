@@ -72,17 +72,17 @@
     gantt.config.scales = [
       {
       unit: "Year",
-      step: 1,
+      step: 2,
       format: function(date){
         const year = date.getFullYear();
-        //const month = date.getMonth();
-        //const quarter = Math.floor(month / 3) + 1;
+        const month = date.getMonth();
+        const quarter = Math.floor(month / 3) + 1;
         return `${year}`;  // 保留你的原逻辑：仅显示年份
         }
       //},
       {
       unit: "month",
-      step: 6,
+      step: 3,
       format: "%M"  // 月份显示
       }
     ];
