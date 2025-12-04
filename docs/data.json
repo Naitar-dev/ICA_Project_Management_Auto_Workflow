@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T21:23:26.687995Z",
+  "generated_at": "2025-12-04T03:12:55.924504Z",
   "data": [
     {
       "id": "PEA_IND_Water_Monitor",
@@ -28,6 +28,14 @@
       "color": "#FC0BB3"
     },
     {
+      "id": "PEA_IND_Water_Monitor_A_T_2",
+      "text": "Build Surveys",
+      "start_date": "2025-11-11",
+      "duration": 7,
+      "parent": "PEA_IND_Water_Monitor_A",
+      "color": "#FC0BB3"
+    },
+    {
       "id": "PEA_IND_Water_Monitor_B",
       "text": "Water Sampling",
       "start_date": "2025-01-01",
@@ -37,13 +45,30 @@
       "progress": 0.0
     },
     {
+      "id": "PEA_IND_Water_Monitor_B_T_1",
+      "text": "Aquire Water Samples",
+      "start_date": "2025-01-01",
+      "duration": 1,
+      "parent": "PEA_IND_Water_Monitor_B",
+      "color": "#FC0BB3"
+    },
+    {
       "id": "ERM_DEM_Census",
       "text": "ERM_DEM_Census",
-      "start_date": "2025-01-01",
+      "start_date": "2026-01-05",
       "duration": 1,
       "open": true,
       "color": "#4CAF50",
       "progress": 0.5
+    },
+    {
+      "id": "ERM_DEM_Census_A",
+      "text": "Build Community Relationship",
+      "start_date": "2026-01-05",
+      "duration": 1,
+      "parent": "ERM_DEM_Census",
+      "color": "#2196F3",
+      "progress": 0.0
     },
     {
       "id": "PEA_SKILL_FSC",
@@ -70,7 +95,70 @@
       "duration": 1,
       "parent": "PEA_SKILL_FSC_A",
       "color": "#FF9800"
+    },
+    {
+      "id": "PEA_SKILL_FSC_A_W_2",
+      "text": "Module 2",
+      "start_date": "2025-10-20",
+      "duration": 2,
+      "parent": "PEA_SKILL_FSC_A",
+      "color": "#FF9800"
+    },
+    {
+      "id": "PEA_SKILL_FSC_A_W_3",
+      "text": "Module 3",
+      "start_date": "2025-01-01",
+      "duration": 1,
+      "parent": "PEA_SKILL_FSC_A",
+      "color": "#FF9800"
+    },
+    {
+      "id": "PEA_SKILL_FSC_A_W_4",
+      "text": "Module 4",
+      "start_date": "2025-01-01",
+      "duration": 1,
+      "parent": "PEA_SKILL_FSC_A",
+      "color": "#FF9800"
+    },
+    {
+      "id": "PEA_SKILL_FSC_A_W_5",
+      "text": "Module 5",
+      "start_date": "2025-01-01",
+      "duration": 1,
+      "parent": "PEA_SKILL_FSC_A",
+      "color": "#FF9800"
     }
   ],
-  "links": []
+  "links": [
+    {
+      "id": "L1",
+      "source": "PEA_IND_Water_Monitor_A_T_1",
+      "target": "PEA_IND_Water_Monitor_A_T_2",
+      "type": "0"
+    },
+    {
+      "id": "L2",
+      "source": "PEA_IND_Water_Monitor_A_T_2",
+      "target": "PEA_IND_Water_Monitor_B_T_1",
+      "type": "0"
+    },
+    {
+      "id": "L3",
+      "source": "PEA_SKILL_FSC_A_W_1",
+      "target": "PEA_SKILL_FSC_A_W_2",
+      "type": "0"
+    },
+    {
+      "id": "L4",
+      "source": "PEA_SKILL_FSC_A_W_2",
+      "target": "PEA_SKILL_FSC_A_W_3",
+      "type": "0"
+    },
+    {
+      "id": "L5",
+      "source": "PEA_SKILL_FSC_A_W_3",
+      "target": "PEA_SKILL_FSC_A_W_4",
+      "type": "0"
+    }
+  ]
 }
